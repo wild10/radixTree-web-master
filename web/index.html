@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Radix simulation</title>
+</head>
+
+<body onload="clear()" class="body">
+
+  <div>
+    <h1> Radix Tree </h1>
+  </div>
+  <div>
+    <label class="form-control-placeholder" for="name">Texto: </label>
+    <input Id="txtInsert" type="text" name="" class="form-control-placeholder"value="" placeholder="inserte texto" maxlength="10" >
+    <input type="button" onclick="enviar()" class="material-button-raised " value="Insert"/>
+
+    <input Id="txtSearch" type="text" name="" value="" class="form-control-placeholder" placeholder="search texto" maxlength="10" >
+    <input type="button" onclick="buscar()" class="material-button-raised" value="Find"/>
+
+    <input id="txtDelete" name="" value="" class="form-control-placeholder" placeholder="eliminar texto">
+    <input type="button" onclick="eliminar()" class="material-button-raised red" value="delete"/>
+
+    <input type="button" onclick="dft()" class="material-button-raised green" value="Print"/>
+  </div>
+
+  </br>
+  <div>
+    <!-- found: -->
+    <label id="label1"></label>
+    <label id="label2"></label>
+    <label id="label3"></label>
+  </div>
+
+</br></br>
+<!--
+ <canvas id="miCanvas" width="1000" height="600" class="canvas_style"> tu navegador no soporta canvas hmtl5</canvas>
+-->
+<!-- cargar libreria d3.js -->
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script type="text/javascript" src="js/controlIndex.js"></script>
+<footer>
+</footer>
+</body>
+</html>
