@@ -1,6 +1,18 @@
 RadixTree web Demo 
 ========
 #### Requirement (MAC OS X)
+
+#### Dependencies
+```sh
+Install libboost-all-dev
+command for install libboost-all-dev
+brew install boost
+```
+```sh
+Install g++
+command for install g++ 
+brew install g++ 
+
 ```sh
 Install cmake
 command for install cmake
