@@ -25,7 +25,7 @@ brew install make
 ```
 
 #### Compile and run server
-
+```
 ```sh
 mkdir build
 cd build
